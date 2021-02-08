@@ -2,7 +2,6 @@ package jenkinstest;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
 import org.testng.annotations.Test;
 
 public class TestDemo {
@@ -21,6 +20,7 @@ public class TestDemo {
 		ls.add(10);
 		ls.add(10);
 		ls.add(20);
+		ls.add(2.3);
 		
 		Iterator<Object>xyz=ls.iterator();
 		while(xyz.hasNext()) {
