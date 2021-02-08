@@ -21,6 +21,7 @@ public class TestDemo {
 		ls.add(10);
 		ls.add(20);
 		ls.add(2.3);
+		ls.add(111);
 		
 		Iterator<Object>xyz=ls.iterator();
 		while(xyz.hasNext()) {
